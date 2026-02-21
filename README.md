@@ -39,6 +39,6 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gitnapp&show_icons=true&theme=transparent&hide_border=true&title_color=2f80ed&icon_color=2f80ed&text_color=434d58" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitnapp&layout=compact&theme=transparent&hide_border=true&title_color=2f80ed&text_color=434d58" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=Gitnapp&theme=transparent&hide_border=true&title_color=2f80ed&text_color=434d58&icon_color=2f80ed&sideNums=2f80ed&sideLabels=434d58&ring=2f80ed&fire=2f80ed&currStreakLabel=434d58&currStreakNum=2f80ed" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gitnapp&theme=transparent" width="48%" />
 </p>
