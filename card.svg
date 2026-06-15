@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="500" height="220" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="500" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Avatar circle -->
+  <clipPath id="avatarClip"><circle cx="50" cy="60" r="24"/></clipPath>
+  <image href="https://github.com/Gitnapp.png" x="26" y="36" width="48" height="48" clip-path="url(#avatarClip)"/>
+  <circle cx="50" cy="60" r="24" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Name -->
+  <text x="92" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#e6edf3" font-weight="600">Eric Yu</text>
+  <text x="92" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">@Gitnapp</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="100" x2="480" y2="100" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Stats row -->
+  <!-- Repos -->
+  <text x="40" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#e6edf3" font-weight="700" text-anchor="middle">48</text>
+  <text x="40" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Repositories</text>
+
+  <!-- Stars -->
+  <text x="145" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#e6edf3" font-weight="700" text-anchor="middle">257</text>
+  <text x="145" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Stars</text>
+
+  <!-- Followers -->
+  <text x="250" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#e6edf3" font-weight="700" text-anchor="middle">2</text>
+  <text x="250" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Followers</text>
+
+  <!-- Following -->
+  <text x="355" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#e6edf3" font-weight="700" text-anchor="middle">6</text>
+  <text x="355" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Following</text>
+
+  <!-- Years -->
+  <text x="460" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#e6edf3" font-weight="700" text-anchor="middle">8</text>
+  <text x="460" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Years</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="182" width="460" height="4" rx="2" fill="#21262d"/>
+  <rect x="20" y="182" width="320" height="4" rx="2" fill="url(#accent)" filter="url(#glow)"/>
+
+  <!-- GitHub icon -->
+  <text x="20" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" fill="#484f58">github.com/Gitnapp</text>
+</svg>
