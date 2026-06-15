@@ -12,9 +12,9 @@ No WakaTime data yet — set up WAKATIME_API_KEY in repo secrets
 📈 **my github stats**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gitnapp&show_icons=true&theme=gotham" alt="Gitnapp stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Gitnapp&show_icons=true&theme=gotham&count_private=true&include_all_commits=true" alt="Gitnapp stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitnapp&layout=compact&theme=gotham&hide=php&langs_count=6" alt="top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitnapp&layout=compact&theme=gotham&hide=php&count_private=true&langs_count=6" alt="top languages" />
 </p>
