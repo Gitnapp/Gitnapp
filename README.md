@@ -16,5 +16,5 @@ No WakaTime data yet — set up WAKATIME_API_KEY in repo secrets
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitnapp&layout=compact&theme=gotham" alt="top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitnapp&layout=compact&theme=gotham&hide=php&langs_count=6" alt="top languages" />
 </p>
