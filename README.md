@@ -1,1 +1,1 @@
-![](card.svg)
+![](card.png)
